@@ -1,2 +1,0 @@
-# questionApp
- React
