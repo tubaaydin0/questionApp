@@ -1,0 +1,113 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.questions {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+
+
+}
+
+.question-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    border-radius: 10px;
+    width: 30vw;
+    height: 62vh;
+    background: aliceblue;
+    border: 5px solid rgba(242, 249, 249, 0.5);
+    box-shadow: 0 0 0 5px rgba(242, 249, 249, 0.5);
+
+
+}
+
+.question-card img {
+    position: absolute;
+    padding: 2% 0;
+    top: 0;
+    width: 92%;
+    height: 55%;
+
+
+
+}
+
+.timer {
+
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #FDC357;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #22254c;
+
+
+}
+
+
+
+.query {
+    position: absolute;
+    padding: 5% 4%;
+    top: 55%;
+    left: 0;
+    right: 0;
+    font-size: 0.9rem;
+    color: #22254c;
+    font-weight: bold;
+}
+
+.query span {
+    font-weight: bolder;
+    color: #FDC357;
+}
+
+.options {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    right: 0;
+    padding: 4% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.options button {
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    background-color: #FDC357;
+    color: aliceblue;
+    font-weight: bold;
+    width: 30vw;
+    height: 5vh;
+    cursor: pointer;
+    border: 0;
+    font-size: 0.9rem;
+
+}
+
+.options button:hover {
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .45);
+}
